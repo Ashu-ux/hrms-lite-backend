@@ -9,6 +9,8 @@ const prisma = new PrismaClient();
 app.use(cors());
 app.use(express.json());
 
+
+
 // ==============================
 // ROOT TEST
 // ==============================
