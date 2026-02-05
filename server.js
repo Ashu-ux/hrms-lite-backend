@@ -6,7 +6,9 @@ require("dotenv").config();
 const app = express();
 const prisma = new PrismaClient();
 
-app.use(cors());
+app.use(cors({
+  origin:"*"
+}));
 app.use(express.json());
 
 
